@@ -14,6 +14,8 @@
     background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
     background-size: 400%, 400%;
     animation: gradient 10s ease infinite;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes gradient{
@@ -31,7 +33,6 @@
 .intro >.intro-text p, span{
     display: grid;
     text-align: center;
-    /* flex-direction: column; */
     justify-self: center;
     width: auto;
     margin: auto;
@@ -52,21 +53,6 @@ margin-top: 15px;
     align-items: center;
 }
 
-/* .content >.content-text > .cont{
-    display: grid;
-    justify-content: space-around;
-    margin:auto;
-    justify-content: space-around;
-    align-items: center;
-    overflow-wrap: break-word; */
-
-/* .content >.content-text > .cont >p{
-    margin:auto;
-    display: flex;
-    text-align: right;
-    justify-self: right;
-    overflow: hidden;
-} */
 .content .content-text .cont-text{
     text-align: right;
 }
@@ -76,8 +62,8 @@ margin-top: 15px;
     display: flex;
     text-align: justify;
     overflow: wrap;
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 24px;
 }
 
@@ -86,4 +72,13 @@ margin-top: 15px;
     font-size: 35px;
     margin-top: 5%;
     color: #23a6d5;
+}
+.responsive{
+    width: auto;
+    height: auto;
+}
+.about{
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
 }
