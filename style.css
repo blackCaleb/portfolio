@@ -46,4 +46,19 @@ margin-right: auto;
 margin-top: 15px;
 }
 
+.content >.content-text > .cont{
+    display: grid;
+    justify-content: space-around;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    overflow-wrap: break-word;
+
+.content >.content-text > .cont >p{
+    margin:auto;
+    display: flex;
+    text-align: right;
+    justify-self: right;
+    overflow: hidden;
+}
 
