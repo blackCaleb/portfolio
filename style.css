@@ -48,6 +48,10 @@ margin-top: 1%;
 cursor: pointer;
 }
 
+.intro >.intro-text a{
+    text-decoration: none;
+}
+
 .content .content-text{
     display: flex;
     justify-content: space-around;
