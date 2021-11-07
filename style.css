@@ -84,18 +84,18 @@ margin-top: 15px;
     text-emphasis-color: black;
 }
 
-.skills .skill .skill-heading h2{
+#div2 .skill .skill-heading h2{
     text-align: center;
     font-size: 35px;
     margin-top: 5%;
     color: #23a6d5;
 }
 
-.skills .skill .skill-body{
+#div2 .skill .skill-body{
     display: flex;
     margin: auto;
 }
 
-.skills .skill .skill-body .row .col img{
+#div2 .skill .skill-body .row .col img{
     height: 250px;
 }
