@@ -9,7 +9,6 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    width: auto;
     margin: auto;
     background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
     background-size: 400%, 400%;
@@ -63,7 +62,7 @@ margin-top: 15px;
     text-align: justify;
     overflow: wrap;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 3%;
     font-size: 24px;
 }
 
@@ -80,5 +79,23 @@ margin-top: 15px;
 .about{
     margin-right: auto;
     margin-left: auto;
-    width: auto;
+}
+.content .content-text .cont-text .school{
+    text-emphasis-color: black;
+}
+
+.skills .skill .skill-heading h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    color: #23a6d5;
+}
+
+.skills .skill .skill-body{
+    display: flex;
+    margin: auto;
+}
+
+.skills .skill .skill-body .row .col img{
+    height: 250px;
 }
