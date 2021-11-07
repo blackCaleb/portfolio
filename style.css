@@ -94,8 +94,17 @@ margin-top: 15px;
 #div2 .skill .skill-body{
     display: flex;
     margin: auto;
+    justify-content: space-around;
 }
 
-#div2 .skill .skill-body .row .col img{
+#div2 .skill .skill-body .container  img{
+    width: 70%;
     height: 250px;
+    padding: 25px;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
 }
