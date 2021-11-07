@@ -108,3 +108,9 @@ margin-top: 15px;
     margin-left: auto;
     align-items: center;
 }
+
+.projects .projects-body .projects-col{
+    display: grid;
+    overflow: hidden;
+    
+}
