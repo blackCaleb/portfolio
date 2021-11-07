@@ -109,8 +109,25 @@ margin-top: 15px;
     align-items: center;
 }
 
-.projects .projects-body .projects-col{
-    display: grid;
-    overflow: hidden;
-    
+.projects .projects-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .projects-heading h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    color: #23a6d5;
+    margin-bottom: 3%;
+}
+
+.projects{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
