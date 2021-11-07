@@ -44,7 +44,8 @@
 display: flex;
 margin-left: auto;
 margin-right: auto;
-margin-top: 15px;
+margin-top: 1%;
+cursor: pointer;
 }
 
 .content .content-text{
@@ -131,4 +132,40 @@ margin-top: 15px;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+}
+
+#reachout{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.reachout-heading h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    color: #23a6d5;
+    margin-bottom: 3%;
+}
+
+.reachout-body .reachout-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name, #email, #message{
+    width: 35%;
+    margin-top: 1%;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#butt{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 15px;
 }

@@ -115,15 +115,23 @@
     </div>
 
     <!-- Reach out -->
-    <div id="Reachout" data-aos="zoom-in" class="aos-init aos-animate">
+    <div id="reachout" data-aos="zoom-in" class="aos-init aos-animate">
         <div class="reachout-heading">
             <h2>Contact</h2>
         </div>
         <div class="reachout-body">
             <form action="https://formspree.io/f/mnqlkwqp" method="POST">
-            <div class="reachout-input">
-                <input type="text" id="name" placeholder="Your name" name="name" required="">
-            </div>
+                <div class="reachout-input">
+                    <input type="text" id="name" placeholder="Your name" name="name" required=" "/>
+                </div>
+                <div class="reachout-input">
+                    <input type="email" id="email" placeholder="Your email" name="email" required=" "/>
+                </div>
+                <div class="reachout-input">
+                    <textarea type="text" id="message" placeholder="Message" name="message" required=" "></textarea> 
+                </div>
+                <input type="submit" value="Send" id="butt" />
+            </form>
         </div>
     </div>
 
