@@ -5,6 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
 .intro{
     height: 100vh;
     display: grid;
@@ -70,8 +77,6 @@ cursor: pointer;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .projects .projects-heading h2{
@@ -83,16 +88,8 @@ cursor: pointer;
     margin-bottom: 3%;
 }
 
-.projects{
-    margin: 0;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #reachout{
     text-align: center;
-    margin: auto;
     margin-bottom: 2%;
 }
 
@@ -127,4 +124,8 @@ cursor: pointer;
     padding: 6px 17px;
 }
 
-    
+#div1 .card{
+    margin-left: auto;
+    margin-right: auto;
+
+}   
