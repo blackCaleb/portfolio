@@ -25,7 +25,7 @@
     justify-self: center;
     width: auto;
     margin: auto;
-    color: #23a6d5 ;
+    color: #000000 ;
     font-size: 50px;
     font-weight: 500;
 }
@@ -46,7 +46,8 @@ cursor: pointer;
     text-align: center;
     font-size: 35px;
     margin-top: 5%;
-    color: #23a6d5;
+    color: #000000;
+    font-weight: 600;
 }
 .responsive{
     width: auto;
@@ -61,7 +62,8 @@ cursor: pointer;
     text-align: center;
     font-size: 35px;
     margin-top: 5%;
-    color: #23d5ab;
+    color: #000000;
+    font-weight: 600;
 }
 
 #div2 .skill .skill-body{
@@ -97,7 +99,8 @@ cursor: pointer;
     text-align: center;
     font-size: 35px;
     margin-top: 5%;
-    color: #ee7752;
+    color: #000000;
+    font-weight: 600;
     margin-bottom: 3%;
 }
 
@@ -118,7 +121,7 @@ cursor: pointer;
     text-align: center;
     font-size: 35px;
     margin-top: 5%;
-    color: #23a6d5;
+    color: #000000;
     margin-bottom: 3%;
 }
 
