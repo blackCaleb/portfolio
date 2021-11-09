@@ -127,16 +127,6 @@ cursor: pointer;
     padding: 6px 15px;
 }
 
-.about .container .row .cont-image >img{
-    height: 50%;
-    margin-left: -116px;
-    padding: 0;
-    display: flex;
-    align-content: flex-start;
-    margin-right: 0;
-    width: 100%;
-}
-
 #div1{
     height: 80vh;
     display: block;
@@ -144,17 +134,4 @@ cursor: pointer;
     justify-content: center; 
 }
 
-/* .about .container .row .cont-text{
-    display: block;
-    align-items: center;
-    justify-items: center;
-    margin-bottom: auto;
-    margin-top: 23%;
-    } */
-
-/* .about .container .row .cont-text p{
-    text-align: center;
-    font-size: 20px;
-    justify-items: center;
-} */
     
